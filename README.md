@@ -1,4 +1,4 @@
-# Generative Forgery of Crowdsensed Sensor Streams: A Preliminary Evaluation of Trust Defenses
+# Forging the Crowd: Generative Sensor Attacks and Lightweight Detection in Crowdsensing
 
 PerCom 2027 Work-in-Progress experiment artifacts for evaluating crowdsensing defenses against generated sensor streams and a lightweight detector.
 
