@@ -1,0 +1,9 @@
+# Local Kaggle data: keep out of Git (hourly source file exceeds GitHub's file limit)
+/station_hour.csv
+/station_day.csv
+/data/air-quality-data-in-india/station_hour.csv
+/data/air-quality-data-in-india/station_day.csv
+
+# Local OS/editor noise
+.DS_Store
+.ipynb_checkpoints/

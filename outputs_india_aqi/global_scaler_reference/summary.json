@@ -1,0 +1,53 @@
+{
+  "mode": "india_aqi",
+  "FAST": false,
+  "sensors": 30,
+  "station_mapping": "stations.csv City metadata",
+  "hours": 21865,
+  "channels": [
+    "PM2.5",
+    "PM10",
+    "NO2",
+    "CO",
+    "SO2"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "latency_ms_per_stream_feature_extraction": 1.146852970123291,
+  "torch": true,
+  "versions": {
+    "numpy": "2.5.0",
+    "pandas": "3.0.5",
+    "sklearn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "cfg": {
+    "MODE": "india_aqi",
+    "TRUTH_SOURCE": "beijing",
+    "INDIA_DIR": null,
+    "CITY": "Delhi",
+    "INDIA_CHANNELS": [
+      "PM2.5",
+      "PM10",
+      "NO2",
+      "CO",
+      "SO2"
+    ],
+    "N_POOL": 40,
+    "L": 48,
+    "R": 4,
+    "N_HONEST": 20,
+    "SYBIL_FRAC": 0.3,
+    "ATTACK_SHIFT": 0.4,
+    "PROXY_NOISE": 0.05,
+    "PROXY_SMOOTH": 1,
+    "K_ADAPT": 50,
+    "N_CAMP_TRAIN": 150,
+    "N_CAMP_TEST": 100,
+    "VAE_EPOCHS": 60,
+    "N_VAE_SAMPLES": 20000
+  }
+}

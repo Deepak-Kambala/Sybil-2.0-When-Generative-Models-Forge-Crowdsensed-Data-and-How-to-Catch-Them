@@ -1,0 +1,15 @@
+\begin{tabular}{llllll}
+\toprule
+forger & white & replay & ar & vae & adaptive \\
+method &  &  &  &  &  \\
+\midrule
+Mean (no defense) & -- & -- & -- & -- & -- \\
+MAD filter & 0.07 $\pm$ 0.01 & 0.08 $\pm$ 0.01 & 0.07 $\pm$ 0.01 & 0.04 $\pm$ 0.01 & 0.1 $\pm$ 0.01 \\
+Truth discovery & 0.04 $\pm$ 0.01 & 0.03 $\pm$ 0.0 & 0.03 $\pm$ 0.0 & 0.01 $\pm$ 0.0 & 0.02 $\pm$ 0.01 \\
+Reputation & 0.01 $\pm$ 0.0 & 0.01 $\pm$ 0.0 & 0.01 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 0.01 $\pm$ 0.0 \\
+Ours: GBM (all) & \textbf{1.0 $\pm$ 0.0} & \textbf{0.33 $\pm$ 0.01} & \textbf{0.92 $\pm$ 0.0} & 0.95 $\pm$ 0.01 & 0.77 $\pm$ 0.03 \\
+Ours: GBM (intrinsic) & 1.0 $\pm$ 0.0 & 0.23 $\pm$ 0.01 & 0.91 $\pm$ 0.01 & 0.96 $\pm$ 0.01 & \textbf{0.82 $\pm$ 0.06} \\
+Ours: GBM (coupled) & 0.19 $\pm$ 0.02 & 0.12 $\pm$ 0.01 & 0.16 $\pm$ 0.01 & 0.21 $\pm$ 0.02 & 0.16 $\pm$ 0.06 \\
+Ours: IsoForest (label-free) & 1.0 $\pm$ 0.0 & 0.1 $\pm$ 0.02 & 0.09 $\pm$ 0.01 & \textbf{0.96 $\pm$ 0.01} & 0.51 $\pm$ 0.05 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,19 @@
+\begin{table}
+\caption{TPR at 5\% FPR (mean $\pm$ std, 3 seeds).}
+\label{tab:tpr}
+\begin{tabular}{llllll}
+\toprule
+forger & white & replay & ar & vae & adaptive \\
+method &  &  &  &  &  \\
+\midrule
+Mean (no defense) & -- & -- & -- & -- & -- \\
+MAD filter & 0.07 $\pm$ 0.01 & 0.07 $\pm$ 0.01 & 0.07 $\pm$ 0.01 & 0.03 $\pm$ 0.01 & 0.1 $\pm$ 0.01 \\
+Truth discovery & 0.04 $\pm$ 0.01 & 0.03 $\pm$ 0.0 & 0.03 $\pm$ 0.0 & 0.01 $\pm$ 0.0 & 0.02 $\pm$ 0.01 \\
+Reputation & 0.01 $\pm$ 0.0 & 0.01 $\pm$ 0.0 & 0.01 $\pm$ 0.0 & 0.0 $\pm$ 0.0 & 0.01 $\pm$ 0.0 \\
+Ours: GBM (all) & \textbf{1.0 $\pm$ 0.0} & \textbf{0.33 $\pm$ 0.01} & \textbf{0.92 $\pm$ 0.0} & 0.95 $\pm$ 0.02 & 0.8 $\pm$ 0.05 \\
+Ours: GBM (intrinsic) & 1.0 $\pm$ 0.0 & 0.24 $\pm$ 0.01 & 0.91 $\pm$ 0.01 & \textbf{0.96 $\pm$ 0.0} & \textbf{0.83 $\pm$ 0.07} \\
+Ours: GBM (coupled) & 0.18 $\pm$ 0.02 & 0.12 $\pm$ 0.01 & 0.17 $\pm$ 0.01 & 0.21 $\pm$ 0.02 & 0.14 $\pm$ 0.03 \\
+Ours: IsoForest (label-free) & 1.0 $\pm$ 0.0 & 0.1 $\pm$ 0.01 & 0.08 $\pm$ 0.02 & 0.96 $\pm$ 0.0 & 0.49 $\pm$ 0.02 \\
+\bottomrule
+\end{tabular}
+\end{table}

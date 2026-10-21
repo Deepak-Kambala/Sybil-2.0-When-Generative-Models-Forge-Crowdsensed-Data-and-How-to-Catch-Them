@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Sybil detection AUROC (mean $\pm$ std, 3 seeds).}
+\label{tab:auroc}
+\begin{tabular}{llllll}
+\toprule
+forger & white & replay & ar & vae & adaptive \\
+method &  &  &  &  &  \\
+\midrule
+Mean (no defense) & -- & -- & -- & -- & -- \\
+MAD filter & 0.68 $\pm$ 0.01 & 0.64 $\pm$ 0.01 & 0.67 $\pm$ 0.01 & 0.68 $\pm$ 0.01 & 0.77 $\pm$ 0.01 \\
+Truth discovery & 0.63 $\pm$ 0.01 & 0.59 $\pm$ 0.0 & 0.62 $\pm$ 0.0 & 0.61 $\pm$ 0.01 & 0.72 $\pm$ 0.01 \\
+Reputation & 0.63 $\pm$ 0.0 & 0.6 $\pm$ 0.0 & 0.63 $\pm$ 0.0 & 0.62 $\pm$ 0.01 & 0.71 $\pm$ 0.01 \\
+Ours: GBM (all) & \textbf{1.0 $\pm$ 0.0} & \textbf{0.83 $\pm$ 0.0} & \textbf{0.98 $\pm$ 0.0} & 0.99 $\pm$ 0.0 & 0.96 $\pm$ 0.01 \\
+Ours: GBM (intrinsic) & 1.0 $\pm$ 0.0 & 0.77 $\pm$ 0.0 & 0.98 $\pm$ 0.0 & \textbf{0.99 $\pm$ 0.0} & \textbf{0.97 $\pm$ 0.01} \\
+Ours: GBM (coupled) & 0.81 $\pm$ 0.0 & 0.63 $\pm$ 0.01 & 0.78 $\pm$ 0.01 & 0.81 $\pm$ 0.01 & 0.75 $\pm$ 0.02 \\
+Ours: IsoForest (label-free) & 1.0 $\pm$ 0.0 & 0.52 $\pm$ 0.02 & 0.63 $\pm$ 0.03 & 0.99 $\pm$ 0.0 & 0.91 $\pm$ 0.01 \\
+\bottomrule
+\end{tabular}
+\end{table}

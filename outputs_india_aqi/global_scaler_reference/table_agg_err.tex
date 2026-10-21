@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Aggregate error on attacked channels, std units (mean $\pm$ std, 3 seeds).}
+\label{tab:err}
+\begin{tabular}{llllll}
+\toprule
+forger & white & replay & ar & vae & adaptive \\
+method &  &  &  &  &  \\
+\midrule
+Mean (no defense) & 0.13 $\pm$ 0.0 & 0.13 $\pm$ 0.0 & 0.13 $\pm$ 0.0 & 0.14 $\pm$ 0.0 & 0.12 $\pm$ 0.01 \\
+MAD filter & 0.26 $\pm$ 0.01 & 0.26 $\pm$ 0.01 & 0.26 $\pm$ 0.01 & 0.26 $\pm$ 0.01 & 0.24 $\pm$ 0.01 \\
+Truth discovery & 0.17 $\pm$ 0.01 & 0.18 $\pm$ 0.01 & 0.18 $\pm$ 0.0 & 0.18 $\pm$ 0.0 & 0.15 $\pm$ 0.01 \\
+Reputation & 0.14 $\pm$ 0.0 & 0.15 $\pm$ 0.0 & 0.14 $\pm$ 0.0 & 0.15 $\pm$ 0.0 & 0.13 $\pm$ 0.01 \\
+Ours: GBM (all) & 0.02 $\pm$ 0.0 & \textbf{0.12 $\pm$ 0.0} & \textbf{0.04 $\pm$ 0.0} & \textbf{0.03 $\pm$ 0.0} & 0.06 $\pm$ 0.01 \\
+Ours: GBM (intrinsic) & 0.02 $\pm$ 0.0 & 0.12 $\pm$ 0.0 & 0.04 $\pm$ 0.0 & 0.03 $\pm$ 0.0 & \textbf{0.06 $\pm$ 0.01} \\
+Ours: GBM (coupled) & 0.09 $\pm$ 0.0 & 0.13 $\pm$ 0.01 & 0.1 $\pm$ 0.01 & 0.08 $\pm$ 0.01 & 0.1 $\pm$ 0.0 \\
+Ours: IsoForest (label-free) & \textbf{0.01 $\pm$ 0.0} & 0.13 $\pm$ 0.0 & 0.13 $\pm$ 0.0 & 0.03 $\pm$ 0.0 & 0.1 $\pm$ 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

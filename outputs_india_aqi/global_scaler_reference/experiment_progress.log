@@ -1,0 +1,423 @@
+Full notebook run completed with FAST=False; captured cell output follows.
+--- notebook cell 2 ---
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m26.1.1[0m[39;49m -> [0m[32;49m26.2.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+--- notebook cell 2 ---
+Note: you may need to restart the kernel to use updated packages.
+--- notebook cell 4 ---
+torch: 2.12.1 | FAST = False
+--- notebook cell 8 ---
+mode=india_aqi | sensors M=30 | hours T=21865 | channels=['PM2.5', 'PM10', 'NO2', 'CO', 'SO2'] | attacked=['PM2.5', 'PM10']
+--- notebook cell 10 ---
+feature extraction ok: 0.02s per window of 20 streams = 1.1 ms/stream (single CPU core; report this as the 'lightweight' claim)
+--- notebook cell 18 ---
+detector training campaigns: 25/150
+--- notebook cell 18 ---
+detector training campaigns: 50/150
+--- notebook cell 18 ---
+detector training campaigns: 75/150
+--- notebook cell 18 ---
+detector training campaigns: 100/150
+--- notebook cell 18 ---
+detector training campaigns: 125/150
+--- notebook cell 18 ---
+detector training campaigns: 150/150
+--- notebook cell 18 ---
+white evaluation campaigns: 25/100
+--- notebook cell 18 ---
+white evaluation campaigns: 50/100
+--- notebook cell 18 ---
+white evaluation campaigns: 75/100
+--- notebook cell 18 ---
+white evaluation campaigns: 100/100
+seed 0 | forger white     done in 8s
+--- notebook cell 18 ---
+replay evaluation campaigns: 25/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 50/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 75/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 100/100
+seed 0 | forger replay    done in 8s
+--- notebook cell 18 ---
+ar evaluation campaigns: 25/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 50/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 75/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 100/100
+seed 0 | forger ar        done in 8s
+--- notebook cell 18 ---
+vae evaluation campaigns: 25/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 50/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 75/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 100/100
+seed 0 | forger vae       done in 8s
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 25/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 50/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 75/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 100/100
+seed 0 | forger adaptive  done in 9s
+--- notebook cell 18 ---
+detector training campaigns: 25/150
+--- notebook cell 18 ---
+detector training campaigns: 50/150
+--- notebook cell 18 ---
+detector training campaigns: 75/150
+--- notebook cell 18 ---
+detector training campaigns: 100/150
+--- notebook cell 18 ---
+detector training campaigns: 125/150
+--- notebook cell 18 ---
+detector training campaigns: 150/150
+--- notebook cell 18 ---
+white evaluation campaigns: 25/100
+--- notebook cell 18 ---
+white evaluation campaigns: 50/100
+--- notebook cell 18 ---
+white evaluation campaigns: 75/100
+--- notebook cell 18 ---
+white evaluation campaigns: 100/100
+seed 1 | forger white     done in 9s
+--- notebook cell 18 ---
+replay evaluation campaigns: 25/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 50/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 75/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 100/100
+seed 1 | forger replay    done in 9s
+--- notebook cell 18 ---
+ar evaluation campaigns: 25/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 50/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 75/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 100/100
+seed 1 | forger ar        done in 10s
+--- notebook cell 18 ---
+vae evaluation campaigns: 25/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 50/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 75/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 100/100
+seed 1 | forger vae       done in 10s
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 25/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 50/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 75/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 100/100
+seed 1 | forger adaptive  done in 10s
+--- notebook cell 18 ---
+detector training campaigns: 25/150
+--- notebook cell 18 ---
+detector training campaigns: 50/150
+--- notebook cell 18 ---
+detector training campaigns: 75/150
+--- notebook cell 18 ---
+detector training campaigns: 100/150
+--- notebook cell 18 ---
+detector training campaigns: 125/150
+--- notebook cell 18 ---
+detector training campaigns: 150/150
+--- notebook cell 18 ---
+white evaluation campaigns: 25/100
+--- notebook cell 18 ---
+white evaluation campaigns: 50/100
+--- notebook cell 18 ---
+white evaluation campaigns: 75/100
+--- notebook cell 18 ---
+white evaluation campaigns: 100/100
+seed 2 | forger white     done in 10s
+--- notebook cell 18 ---
+replay evaluation campaigns: 25/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 50/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 75/100
+--- notebook cell 18 ---
+replay evaluation campaigns: 100/100
+seed 2 | forger replay    done in 11s
+--- notebook cell 18 ---
+ar evaluation campaigns: 25/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 50/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 75/100
+--- notebook cell 18 ---
+ar evaluation campaigns: 100/100
+seed 2 | forger ar        done in 10s
+--- notebook cell 18 ---
+vae evaluation campaigns: 25/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 50/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 75/100
+--- notebook cell 18 ---
+vae evaluation campaigns: 100/100
+seed 2 | forger vae       done in 11s
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 25/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 50/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 75/100
+--- notebook cell 18 ---
+adaptive evaluation campaigns: 100/100
+seed 2 | forger adaptive  done in 12s
+
+AUROC, mean ± std over 3 seeds (higher = better detection)
+--- notebook cell 18 ---
+TPR @ 5% FPR (higher = better)
+--- notebook cell 18 ---
+Aggregate error on attacked channels, std units (lower = better)
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+sweeps done for seed 0
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+sweeps done for seed 1
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 25/50
+--- notebook cell 23 ---
+vae evaluation campaigns: 50/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 25/50
+--- notebook cell 23 ---
+adaptive evaluation campaigns: 50/50
+sweeps done for seed 2
+--- notebook cell 25 ---
+['execute.log', 'fig0_honest.png', 'fig1_main_heatmaps.png', 'fig2_feature_importance.png', 'fig3_forged_vs_honest.png', 'fig4_sweeps.png', 'results_main.csv', 'summary.json', 'sweep_proxy_resolution.csv', 'sweep_shift.csv', 'sweep_sybil_fraction.csv', 'table_agg_err.tex', 'table_agg_err_body.tex', 'table_auroc.tex', 'table_auroc_body.tex', 'table_tpr5.tex', 'table_tpr5_body.tex']
