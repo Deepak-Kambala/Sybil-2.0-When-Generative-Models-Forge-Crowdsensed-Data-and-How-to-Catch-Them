@@ -1,4 +1,4 @@
-# Sybil 2.0: Generative Forgeries of Crowdsensed Streams
+# Generative Forgery of Crowdsensed Sensor Streams: A Preliminary Evaluation of Trust Defenses
 
 PerCom 2027 Work-in-Progress experiment artifacts for evaluating crowdsensing defenses against generated sensor streams and a lightweight detector.
 

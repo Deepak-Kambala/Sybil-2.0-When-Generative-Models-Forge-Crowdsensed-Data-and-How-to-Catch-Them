@@ -1,9 +1,9 @@
-% Sybil 2.0 -- IEEE PerCom 2027 Work-in-Progress results draft
+% Generative Forgery of Crowdsensed Sensor Streams: A Preliminary Evaluation of Trust Defenses -- IEEE PerCom 2027 Work-in-Progress results draft
 % All reported results are generated from outputs_india_aqi/ with FAST=false and 3 seeds.
 \documentclass[conference]{IEEEtran}
 \usepackage{cite,amsmath,graphicx,booktabs,xcolor,url,microtype}
 \begin{document}
-\title{Sybil 2.0: When Generative Models Forge Crowdsensed Data, and How to Catch Them}
+\title{Generative Forgery of Crowdsensed Sensor Streams: A Preliminary Evaluation of Trust Defenses}
 \author{\IEEEauthorblockN{Deepak Kambala}
 \IEEEauthorblockA{Prism Labs\\University College of Engineering Narasaraopet (JNTUK), India\\deepakkambala@prism-labs.tech}}
 \maketitle
@@ -16,7 +16,7 @@ mobile crowdsensing, Sybil attack, generative forgery, truth discovery, anomaly 
 \section{Introduction}
 Mobile crowdsensing lets phones and low-cost sensors contribute measurements such as air quality, noise, and traffic~\cite{ganti2011}. Open participation invites Sybil attacks, in which one adversary controls many fake identities~\cite{douceur2002}. Common defenses filter outliers, estimate source reliability through truth discovery~\cite{li2014crh,li2016survey}, or weight participants by reputation. These methods can struggle when forged data reproduces realistic temporal patterns.
 
-We study \emph{Sybil 2.0}: generated sensor streams anchored to a public proxy of the honest consensus, with a bias on selected channels. We compare three conventional defenses, a supervised detector trained only on crude forgeries, and a label-free Isolation Forest. Our goal is to measure their relative behavior on a single real-world station dataset, not to claim independent ground truth or universal robustness.
+We study generated sensor-stream forgeries anchored to a public proxy of the honest consensus, with a bias on selected channels. We compare three conventional defenses, a supervised detector trained only on crude forgeries, and a label-free Isolation Forest. Our goal is to measure their relative behavior on a single real-world station dataset, not to claim independent ground truth or universal robustness.
 \section{Threat Model and Forgers}
 A campaign has $N_h$ honest participants and Sybils reporting $R$ consecutive windows of $L$ hourly samples over $C$ channels. The attacker biases PM$_{2.5}$ and PM$_{10}$ by $\delta$ standard deviations. Its forged stream is a smoothed public proxy of the honest median plus the shift and a generated deviation. Proxy smoothing $k{=}1$ is the real-time setting; larger $k$ uses a more smoothed reference. Forgers are white noise, replayed deviations, fitted AR(1), an MLP-VAE, and an adaptive best-of-$K$ VAE sample chosen for intrinsic-feature similarity ($K{=}50$). Generators use the first 60\% of the timeline; evaluation uses the last 40\%.
 \section{Detector}
